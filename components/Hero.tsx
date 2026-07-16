@@ -14,13 +14,12 @@ export default function Hero() {
     >
       <div className="max-w-container mx-auto px-8 relative z-[1] w-full">
         <div className="hero-inner fade-up visible w-full">
-          <p className="font-mono text-[0.75rem] text-accent tracking-[0.1em] uppercase mb-6 flex items-center gap-[0.6rem] before:content-[''] before:inline-block before:w-6 before:h-px before:bg-accent">
-            Available for work
-          </p>
           <h1 className="text-[clamp(3.2rem,8vw,6rem)] font-extrabold leading-[0.95] tracking-[-0.03em] mb-6 text-text max-[640px]:text-[3rem]">
             Raleigh
             <br />
-            Tracer.
+            Tracer
+            <br />
+            Cabotage
           </h1>
           <p className="text-base text-text-muted max-w-[460px] leading-[1.7] mb-10 font-normal">
             Full-stack developer building thoughtful, performant digital
