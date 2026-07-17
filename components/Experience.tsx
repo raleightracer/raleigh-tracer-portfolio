@@ -1,33 +1,9 @@
 const timeline = [
   {
     year: "2024 — Present",
-    role: "Senior Software Engineer",
-    company: "NovaBuild Labs",
-    desc: "Leading full-stack development for a SaaS platform serving 15k+ users. Architected a microservices migration that cut response times by 40%.",
-  },
-  {
-    year: "2022 — 2024",
-    role: "Full-Stack Developer",
-    company: "Orbit Digital",
-    desc: "Built and maintained multiple client products using React, TypeScript, and Laravel. Introduced automated testing pipelines and reduced bugs in production by 60%.",
-  },
-  {
-    year: "2021 — 2022",
-    role: "Frontend Developer",
-    company: "Stackline Creative",
-    desc: "Crafted pixel-precise UI implementations for brand-focused clients. Collaborated directly with design teams to ensure a high-quality final product.",
-  },
-  {
-    year: "2019 — 2021",
-    role: "Junior Developer",
-    company: "CodeForge PH",
-    desc: "Started career building internal tools and client websites. First exposure to agile workflows, code reviews, and production-grade deployments.",
-  },
-  {
-    year: "2019",
-    role: "BS Computer Science",
-    company: "Technological University",
-    desc: "Graduated with honors. Capstone project: an AI-assisted scheduling system deployed for the university's department offices.",
+    role: "BS Information Technology",
+    company: "Angeles University Foundation",
+    desc: "Developing full-stack web applications and academic software projects using modern web technologies.",
   },
 ];
 
