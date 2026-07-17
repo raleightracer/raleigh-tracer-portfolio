@@ -20,13 +20,6 @@ const projects = [
     desc: "Team scheduling and shift management app for small businesses. Handles availability, conflicts, and payroll exports.",
     tags: ["Vue.js", "Laravel", "MySQL"],
   },
-  {
-    num: "004",
-    name: "Codepin",
-    url: "codepin.dev",
-    desc: "Developer bookmarking tool with tagging, full-text search, and one-click code snippet sharing via short links.",
-    tags: ["TypeScript", "Redis", "AWS S3"],
-  },
 ];
 
 export default function Projects() {
@@ -41,7 +34,7 @@ export default function Projects() {
             Things I built.
           </h2>
         </div>
-        <div className="fade-up grid grid-cols-2 gap-4 mt-10 max-[640px]:grid-cols-1">
+        <div className="fade-up grid grid-cols-3 gap-4 mt-10 max-[860px]:grid-cols-2 max-[640px]:grid-cols-1">
           {projects.map((project) => (
             <div
               key={project.num}
