@@ -1,5 +1,17 @@
 const timeline = [
   {
+    year: "2026 (4 months)",
+    role: "Tech Lead & Frontend Developer",
+    company: "",
+    desc: "A web-based Library Management System built with HTML, CSS, JavaScript, Bootstrap, and MySQL for managing books, members, borrowing, and returns.",
+  },
+  {
+    year: "2025 (4 months)",
+    role: "Backend Developer",
+    company: "MarcZen",
+    desc: "A Windows Forms Car Rental System built with C# and MySQL for managing vehicle rentals, customer records, bookings, and returns.",
+  },
+  {
     year: "2024 — Present",
     role: "BS Information Technology",
     company: "Angeles University Foundation",
@@ -32,9 +44,11 @@ export default function Experience() {
               <div className="text-base font-semibold text-text mb-[0.15rem]">
                 {item.role}
               </div>
-              <div className="text-[0.85rem] text-text-muted mb-2">
-                {item.company}
-              </div>
+              {item.company && (
+                <div className="text-[0.85rem] text-text-muted mb-2">
+                  {item.company}
+                </div>
+              )}
               <div className="text-[0.82rem] text-text-dim leading-[1.7] max-w-[520px]">
                 {item.desc}
               </div>
