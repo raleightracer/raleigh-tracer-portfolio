@@ -1,24 +1,24 @@
 const projects = [
   {
     num: "001",
-    name: "PulseBoard",
-    url: "pulseboard.app",
-    desc: "Real-time analytics dashboard for indie developers. Tracks key metrics across platforms with a clean, minimal interface.",
-    tags: ["Next.js", "WebSockets", "PostgreSQL"],
+    name: "SchoDex",
+    url: "schodex.app",
+    desc: "A web-based Library Management System designed to efficiently manage books, member records, borrowing, and return transactions.",
+    tags: ["HTML", "CSS", "JS", "Bootstrap", "MySQL"],
   },
   {
     num: "002",
-    name: "Forma AI",
-    url: "forma.so",
-    desc: "AI-powered form builder that generates smart multi-step forms from a plain text description in seconds.",
-    tags: ["React", "OpenAI API", "Node.js"],
+    name: "MarcZen",
+    url: "marczen.app",
+    desc: "A Car Rental Management System designed to simplify vehicle rentals, customer records, reservations, and rental tracking.",
+    tags: ["C#", "Visual Studio", "MySQL", "Windows Form App"],
   },
   {
     num: "003",
-    name: "ShiftLog",
-    url: "shiftlog.io",
-    desc: "Team scheduling and shift management app for small businesses. Handles availability, conflicts, and payroll exports.",
-    tags: ["Vue.js", "Laravel", "MySQL"],
+    name: "Interval",
+    url: "interval.io",
+    desc: "A productivity timer application designed to help users manage focus sessions, breaks, and improve time management.",
+    tags: ["React", "Tailwind CSS"],
   },
 ];
 
