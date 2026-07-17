@@ -1,15 +1,23 @@
 const categories = [
   {
     title: "Frontend",
-    items: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Vue.js"],
+    items: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Bootstrap"],
   },
   {
     title: "Backend",
-    items: ["Node.js", "Python", "Laravel / PHP", "PostgreSQL", "MongoDB"],
+    items: ["Node.js", "Python", "Laravel", "PHP"],
+  },
+  {
+    title: "Database",
+    items: ["MySQL", "PostgreSQL", "Supabase"],
   },
   {
     title: "DevOps & Cloud",
-    items: ["AWS", "Docker", "GitHub Actions", "Vercel", "Linux / Bash"],
+    items: ["Git", "GitHub", "Vercel", "Netlify", "GitHub Actions"],
+  },
+  {
+    title: "Tools",
+    items: ["Claude Code", "Codex", "VS Code", "Cursor", "Figma"],
   },
 ];
 
@@ -25,9 +33,12 @@ export default function Stack() {
             What I use.
           </h2>
         </div>
-        <div className="fade-up grid grid-cols-3 gap-px bg-line border border-line rounded-[4px] overflow-hidden mt-10 max-[640px]:grid-cols-1">
+        <div className="fade-up grid grid-cols-3 gap-4 mt-10 max-[860px]:grid-cols-2 max-[640px]:grid-cols-1">
           {categories.map((cat) => (
-            <div key={cat.title} className="bg-base p-6">
+            <div
+              key={cat.title}
+              className="bg-base border border-line rounded-[4px] p-6"
+            >
               <div className="font-mono text-[0.68rem] text-accent tracking-[0.1em] uppercase mb-4">
                 {cat.title}
               </div>
