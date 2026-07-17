@@ -8,9 +8,9 @@ export default function Hero() {
   ];
 
   const socials = [
-    ["GitHub", "#"],
-    ["LinkedIn", "#"],
-    ["Instagram", "#"],
+    ["GitHub", "https://github.com/raleightracer"],
+    ["LinkedIn", "https://www.linkedin.com/in/raleightracer"],
+    ["Instagram", "https://www.instagram.com/trace.route_"],
   ];
 
   return (
@@ -59,18 +59,20 @@ export default function Hero() {
               Send Email
             </a>
           </div>
-          <div className="mt-6 flex gap-5">
+          <div className="mt-14 flex gap-5">
             {socials.map(([label, href]) => (
               <a
                 key={label}
                 href={href}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="font-mono text-[0.72rem] text-text-dim no-underline tracking-[0.06em] transition-colors hover:text-accent"
               >
                 {label}
               </a>
             ))}
           </div>
-          <div className="mt-20 flex items-center gap-3 font-mono text-[0.7rem] text-text-dim tracking-[0.06em]">
+          <div className="mt-14 flex items-center gap-3 font-mono text-[0.7rem] text-text-dim tracking-[0.06em]">
             <span className="w-10 h-px bg-text-dim animate-scrollline" />
             scroll to explore
           </div>
