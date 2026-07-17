@@ -17,6 +17,7 @@ const projects = [
     num: "003",
     name: "Interval",
     url: "interval.io",
+    link: "https://pomodorotimer-wine.vercel.app/",
     desc: "A productivity timer application designed to help users manage focus sessions, breaks, and improve time management.",
     tags: ["React", "Tailwind CSS"],
   },
@@ -35,9 +36,19 @@ export default function Projects() {
           </h2>
         </div>
         <div className="fade-up grid grid-cols-3 gap-4 mt-10 max-[860px]:grid-cols-2 max-[640px]:grid-cols-1">
-          {projects.map((project) => (
-            <div
+          {projects.map((project) => {
+            const Card = project.link ? "a" : "div";
+            const linkProps = project.link
+              ? {
+                  href: project.link,
+                  target: "_blank",
+                  rel: "noopener noreferrer",
+                }
+              : {};
+            return (
+            <Card
               key={project.num}
+              {...linkProps}
               className="group bg-base-2 border border-line rounded-[4px] p-6 no-underline block transition-[border-color,background] relative overflow-hidden cursor-pointer hover:border-[rgba(200,240,96,0.25)] hover:bg-base-3 after:content-['↗'] after:absolute after:top-5 after:right-5 after:text-[0.85rem] after:text-text-dim after:transition-[color,transform] group-hover:after:text-accent group-hover:after:translate-x-[2px] group-hover:after:-translate-y-[2px]"
             >
               <div className="font-mono text-[0.65rem] text-text-dim tracking-[0.1em] mb-3">
@@ -62,8 +73,9 @@ export default function Projects() {
                   </span>
                 ))}
               </div>
-            </div>
-          ))}
+            </Card>
+            );
+          })}
         </div>
       </div>
     </section>
