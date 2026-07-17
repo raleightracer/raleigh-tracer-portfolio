@@ -1,7 +1,7 @@
 export default function About() {
   const stats = [
-    ["5+", "years of professional experience"],
-    ["30+", "projects shipped across industries"],
+    ["3+", "years of hands-on coding"],
+    ["3", "personal projects built"],
     ["∞", "curiosity for new technology"],
   ];
 
@@ -21,17 +21,19 @@ export default function About() {
             <p className="text-text-muted text-[0.95rem] leading-[1.8] mb-4">
               I&apos;m a full-stack developer with a strong eye for design and a
               passion for building systems that are both functional and
-              beautiful. I specialize in modern JavaScript ecosystems — from
-              slick React frontends to scalable Node.js backends.
+              beautiful.
             </p>
             <p className="text-text-muted text-[0.95rem] leading-[1.8] mb-4">
-              Beyond code, I care about the why behind every project. I&apos;ve
-              worked with early-stage startups, helped scale products to
-              thousands of users, and mentored junior developers along the way.
+              I care about the why behind every project, not just the how.
+              Through academic projects like a library management system and a
+              car rental platform, I&apos;ve worked through real data modeling
+              challenges, user flows, and edge cases — not just code that runs,
+              but systems that hold up.
             </p>
             <p className="text-text-muted text-[0.95rem] leading-[1.8]">
-              Lately I&apos;ve been deep in AI integrations — building tools that
-              make everyday workflows smarter without getting in the way.
+              Lately I&apos;ve been exploring how AI can fit into everyday
+              workflows — still learning, but genuinely curious about where
+              it&apos;s useful and where it isn&apos;t.
             </p>
           </div>
           <div className="flex flex-col gap-4">
