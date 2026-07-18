@@ -1,4 +1,11 @@
-const gear = [
+type GearItem = {
+  name: string;
+  desc: string;
+  img?: string;
+  icon?: string;
+};
+
+const gear: GearItem[] = [
   {
     img: "https://dlcdnwebimgs.asus.com/gain/f93bdd99-47d7-4f97-8800-5a83d0bd46a6/",
     name: "ASUS TUF F15",
