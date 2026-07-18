@@ -13,6 +13,7 @@ export default function Nav() {
           ["#experience", "Experience"],
           ["#stack", "Stack"],
           ["#projects", "Projects"],
+          ["#gear", "Gear"],
         ].map(([href, label]) => (
           <li key={href}>
             <a

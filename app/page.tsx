@@ -5,6 +5,7 @@ import About from "@/components/About";
 import Experience from "@/components/Experience";
 import Stack from "@/components/Stack";
 import Projects from "@/components/Projects";
+import Gear from "@/components/Gear";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
         <Experience />
         <Stack />
         <Projects />
+        <Gear />
       </main>
       <Footer />
     </>
