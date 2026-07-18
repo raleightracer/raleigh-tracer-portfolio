@@ -3,6 +3,7 @@ const projects = [
     num: "001",
     name: "SchoDex",
     url: "schodex.app",
+    link: "https://github.com/raleightracer/library-management-system",
     desc: "A web-based Library Management System designed to efficiently manage books, member records, borrowing, and return transactions.",
     tags: ["HTML", "CSS", "JS", "Bootstrap", "MySQL"],
   },
