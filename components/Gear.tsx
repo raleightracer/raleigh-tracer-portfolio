@@ -7,7 +7,7 @@ type GearItem = {
 
 const gear: GearItem[] = [
   {
-    img: "https://dlcdnwebimgs.asus.com/gain/f93bdd99-47d7-4f97-8800-5a83d0bd46a6/",
+    img: "https://support.apple.com/en-ph/121553",
     name: "ASUS TUF F15",
     desc: "i5 12th Gen · 16GB · 1.5TB",
   },
