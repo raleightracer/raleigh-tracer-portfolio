@@ -27,12 +27,12 @@ export default function About() {
               I care about the why behind every project, not just the how.
               Through academic projects like a library management system and a
               car rental platform, I&apos;ve worked through real data modeling
-              challenges, user flows, and edge cases — not just code that runs,
+              challenges, user flows, and edge cases, not just code that runs,
               but systems that hold up.
             </p>
             <p className="text-text-muted text-[0.95rem] leading-[1.8]">
               Lately I&apos;ve been exploring how AI can fit into everyday
-              workflows — still learning, but genuinely curious about where
+              workflows, still learning, but genuinely curious about where
               it&apos;s useful and where it isn&apos;t.
             </p>
           </div>
