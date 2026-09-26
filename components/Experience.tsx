@@ -1,5 +1,11 @@
 const timeline = [
   {
+    year: "2026 (July - Present)",
+    role: "Systems and Technology Manager",
+    company: "Meaningful Beginnings",
+    desc: "An Integration and Automation Developer specializing in Zapier and Google Apps Script to streamline workflows, connect business applications, and build custom web applications for automated data management.",
+  },
+  {
     year: "2026 (4 months)",
     role: "Tech Lead & Frontend Developer",
     company: "QuadByte",
