@@ -3,7 +3,7 @@ const timeline = [
     year: "2026 (4 months)",
     role: "Tech Lead & Frontend Developer",
     company: "QuadByte",
-    desc: "A web-based Library Management System built with HTML, CSS, JavaScript, Bootstrap, and MySQL for managing books, members, borrowing, and returns.",
+    desc: "A web-based Library Management System built with HTML, JavaScript, Bootstrap, PHP, and MySQL for managing books, members, borrowing, and returns.",
   },
   {
     year: "2025 (4 months)",
