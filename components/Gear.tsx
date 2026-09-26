@@ -7,9 +7,9 @@ type GearItem = {
 
 const gear: GearItem[] = [
   {
-    img: "https://support.apple.com/en-ph/121553",
-    name: "ASUS TUF F15",
-    desc: "i5 12th Gen · 16GB · 1.5TB",
+    img: "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/mbp14-m4-2024.png",
+    name: "MacBook Pro M5",
+    desc: "M5 Chip · 16GB · 1TB",
   },
   {
     img: "https://dlcdnwebimgs.asus.com/gain/1292674f-ed78-43e1-b6f2-573192db5f6b//w184",
